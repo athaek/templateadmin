@@ -152,30 +152,7 @@
         <!-- /#header -->
         <!-- Header-->
 
-        <div class="breadcrumbs">
-            <div class="breadcrumbs-inner">
-                <div class="row m-0">
-                    <div class="col-sm-4">
-                        <div class="page-header float-left">
-                            <div class="page-title">
-                                <h1>Dashboard</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
-                        <div class="page-header float-right">
-                            <div class="page-title">
-                                <ol class="breadcrumb text-right">
-                                    <li><a href="#">Dashboard</a></li>
-                                    <li><a href="#">Table</a></li>
-                                    <li class="active">Data table</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <div class="content">
             <div class="animated fadeIn">
@@ -184,19 +161,45 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header">
-                                <strong class="card-title">Data Table Penjualan</strong>
+                                <strong class="card-title">Detil Laporan Retur Penjualan</strong>
                             </div>
-                            <div class="card-body card-body table-stats order-table ov-h">
-                                    <table id="bootstrap-data-table" class="table">
+                            <div class="col-md-6">
+                                <table class="table">
+                                  <tbody>
+
+                                      <tr>
+                                        <td scope="row">No Retur Invoice</td>
+                                        <td>29/ND/5/18/07/05/30</td>
+                                    </tr>
+                                    <tr>
+                                            <td scope="row">Tanggal Retur</td>
+                                            <td>29-11-2018</td>
+                                        </tr>
+                                    <tr>
+                                        <td scope="row">Nama Pembeli</td>
+                                        <td >RETURN NELY</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">Tanggal Transaksi</td>
+                                        <td>29-11-2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">No Invoice</td>
+                                        <td>29/ND/5/18/07/05/30</td>
+                                    </tr>
+                                   </tbody>
+                                </table>
+                              </div>
+                            <div class="card-body">
+                                    <table class="table table-stats order-table ov-h">
                                     <thead>
                                         <tr>
-                                            <th>No Invoice</th>
-                                            <th>Kasir</th>
-                                            <th>Pembeli / Agen</th>
-                                            <th>Tanggal</th>
-                                            <th>Biaya Pengiriman</th>
-                                            <th>Total bayar</th>
-                                            <th>Aksi</th>
+                                            <th>Nama Barang</th>
+                                            <th>Jumlah Beli</th>
+                                            <th>Harga </th>
+                                            <th>Diskon</th>
+                                            <th>Harga Setelah Diskon</th>
+                                            <th>Total Harga</th></t></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -204,7 +207,6 @@
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
-                                            <td>$320,800</td>
                                             <td>$320,800</td>
                                             <td>Edinburgh</td>
                                             <td><a href="#"><i class="fa fa-edit"></i></a>  ||  <a href="#"><i class="fa fa-eye"></i></a></td>
